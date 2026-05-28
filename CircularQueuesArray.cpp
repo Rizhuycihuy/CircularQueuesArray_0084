@@ -147,7 +147,11 @@ int main()
               {
                   return 0;
               }
-              
+              default:
+              {
+                  cout << "invalid option!!!!" << endl;
+                  break;
+              }
             }
         }
 
